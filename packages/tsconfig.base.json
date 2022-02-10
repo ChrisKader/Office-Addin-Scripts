@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "newLine": "lf",
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "declaration": true,
+    "strict": false,
+    "alwaysStrict": false,
+    "noImplicitUseStrict": true,
+    "baseUrl": "packages", // This must be specified if "paths" is.
+    "paths": {
+      "custom-functions-metadata": ["custom-functions-metadata/src/main"],
+      "custom-functions-metadata-plugin": [
+        "custom-functions-metadata-plugin/src/loader"
+      ],
+      "eslint-config-office-addins": ["eslint-config-office-addins/src/main"],
+      "eslint-plugin-excel-custom-functions": [
+        "eslint-plugin-excel-custom-functions/src/index"
+      ],
+      "eslint-plugin-office-addins": ["eslint-plugin-office-addins/src/main"],
+      "office-addin-cli": ["office-addin-cli/src/main"],
+      "office-addin-debugging": ["office-addin-debugging/src/main"],
+      "office-addin-dev-certs": ["office-addin-dev-certs/src/main"],
+      "office-addin-dev-settings": ["office-addin-dev-settings/src/main"],
+      "office-addin-lint": ["office-addin-lint/src/main"],
+      "office-addin-manifest": ["office-addin-manifest/src/main"],
+      "office-addin-mock": ["office-addin-mock/src/main"],
+      "office-addin-node-debugger": ["office-addin-node-debugger/src/debugger"],
+      "office-addin-prettier-config": [
+        "office-addin-prettier-config/prettier.config.js"
+      ],
+      "office-addin-sso": ["office-addin-sso/src/main"],
+      "office-addin-test-helpers": ["office-addin-test-helpers/src/main"],
+      "office-addin-test-server": ["office-addin-test-server/src/main"],
+      "office-addin-usage-data": ["office-addin-usage-data/src/main"]
+    }
+  }
+}
