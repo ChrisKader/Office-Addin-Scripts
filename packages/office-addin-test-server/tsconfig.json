@@ -1,15 +1,7 @@
 {
+    "extends": "../../tsconfig.base.json",
     "compilerOptions": {
-        "target": "es6",
-        "module": "commonjs",
-        "moduleResolution": "node",
-        "skipLibCheck": true,
-        "sourceMap": true,
-        "declaration": true,
         "outDir": "lib",
-        "strict": false,
-        "alwaysStrict": false,
-        "noImplicitUseStrict": true,
         "types": [
             "node",
             "express"
@@ -20,6 +12,7 @@
     ],
     "exclude": [
         "node_modules",
-        "lib"
-    ]
+        "lib",
+        "test/cases/**/*",
+    ],
 }
