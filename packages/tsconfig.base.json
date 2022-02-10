@@ -1,10 +1,6 @@
 {
-  "references": [
-    {
-      "path": "packages/office-addin-usage-data"
-    }
-  ],
   "compilerOptions": {
+    "newLine": "lf",
     "target": "es6",
     "module": "commonjs",
     "moduleResolution": "node",
